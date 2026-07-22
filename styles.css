@@ -1,0 +1,112 @@
+/* ============================================
+   IMPORTAÇÃO DE FONTES
+   ============================================ */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ============================================
+   RESET GLOBAL
+   ============================================ */
+* {
+  font-family: "Montserrat", sans-serif; /* Define a fonte padrão para todos os elementos */
+  margin: 0;                             /* Remove margens padrão do navegador */
+  padding: 0;                            /* Remove preenchimento padrão do navegador */
+  box-sizing: border-box;                /* Inclui padding e border na largura/altura total */
+}
+
+/* ============================================
+   CABEÇALHO (HEADER)
+   ============================================ */
+.cabecalho {
+  margin: 44px 0 144px 76px;             /* Margens: topo 44px, direita 0, base 144px, esquerda 76px */
+}
+
+/* Links de navegação do header */
+.link-header {
+  font-size: 24px;                       /* Tamanho da fonte: 24px */
+  text-decoration: none;                 /* Remove sublinhado do link */
+  text-transform: uppercase;             /* Transforma texto em maiúsculas */
+  color: #989d9c;                        /* Cor do texto: cinza médio */
+  font-weight: 600;                      /* Peso da fonte: semi-bold */
+  margin-right: 23px;                    /* Margem direita: 23px (espaçamento entre links) */
+  cursor: pointer;                       /* Cursor de ponteiro ao passar mouse */
+}
+
+/* Botão principal do header */
+.button-header {
+  width: 130px;                          /* Largura fixa: 130px */
+  height: 41px;                          /* Altura fixa: 41px */
+  border-radius: 20.5px;                 /* Bordas arredondadas: 20.5px (pill shape) */
+  background-color: #665ae1;             /* Cor de fundo: roxo */
+  border: none;                          /* Remove borda padrão */
+  cursor: pointer;                       /* Cursor de ponteiro */
+  font-size: 24px;                       /* Tamanho da fonte: 24px */
+  font-weight: 600;                      /* Peso da fonte: semi-bold */
+  color: #ffffff;                        /* Cor do texto: branco */
+}
+
+.button-header a {
+  text-decoration: none;                 /* Remove sublinhado do link interno */
+  color: #ffffff;                        /* Cor do texto: branco */
+}
+
+/* ============================================
+   SEÇÃO PRINCIPAL (HERO/MAIN)
+   ============================================ */
+.img-principal {
+  width: 568px;                          /* Largura da imagem: 568px */
+  height: 500px;                         /* Altura da imagem: 500px */
+  margin-left: 125px;                    /* Margem esquerda: 125px */
+  /* display: inline-block; */
+}
+
+.principal {
+  display: flex;                         /* Layout flexbox para alinhar imagem e conteúdo lado a lado */
+}
+
+/* .conteudo-principal {
+      display: inline-block; 
+} */
+
+/* Título principal (h1) */
+.conteudo-principal h1 {
+  font-size: 100px;                      /* Tamanho da fonte: 100px (muito grande) */
+  font-weight: 900;                      /* Peso da fonte: black/extra-bold */
+  color: #515151;                        /* Cor do texto: cinza escuro */
+  text-transform: uppercase;             /* Transforma texto em maiúsculas */
+  margin-left: 86px;                     /* Margem esquerda: 86px */
+}
+
+/* Subtítulo (h2) */
+.conteudo-principal h2 {
+  font-size: 58px;                       /* Tamanho da fonte: 58px */
+  color: #515151;                        /* Cor do texto: cinza escuro */
+  font-weight: 500;                      /* Peso da fonte: medium */
+  margin-left: 86px;                     /* Margem esquerda: 86px */
+}
+
+/* Texto descritivo */
+.conteudo-principal p {
+  font-size: 24px;                       /* Tamanho da fonte: 24px */
+  font-weight: 400;                      /* Peso da fonte: normal */
+  width: 515px;                          /* Largura máxima do texto: 515px */
+  margin-left: 86px;                     /* Margem esquerda: 86px */
+  margin-top: 32px;                      /* Margem superior: 32px */
+  color: #848484;                        /* Cor do texto: cinza médio */
+}
+
+/* Botão de ação principal (CTA) */
+.button-main {
+  width: 239px;                          /* Largura fixa: 239px */
+  height: 64px;                          /* Altura fixa: 64px */
+  border-radius: 20.5px;                 /* Bordas arredondadas: 20.5px */
+  border: none;                          /* Remove borda padrão */
+  cursor: pointer;                       /* Cursor de ponteiro */
+  background-color: #adff00;             /* Cor de fundo: verde limão brilhante */
+  text-transform: uppercase;             /* Texto em maiúsculas */
+  font-size: 28px;                       /* Tamanho da fonte: 28px */
+  font-weight: 700;                      /* Peso da fonte: bold */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); /* Sombra projetada: deslocamento 4px, blur 4px, cor preta 25% opacidade */
+  margin: 65px 0 0 0;                    /* Margem: topo 65px, direita 0, base 0, esquerda 0 */
+  margin-left: 86px;                     /* Margem esquerda adicional: 86px */
+  margin-bottom: 143px;                  /* Margem inferior: 143px */
+}
