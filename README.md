@@ -2,7 +2,7 @@
 
 <p align="center">
  
-  <img src="./img/petsite" alt="Preview do Projeto Easy Shopping Via Mobile" width="100%">
+  <img src="./img/petsite.png" alt="Preview do Projeto Easy Shopping Via Mobile" width="100%">
   
 </p>
 
