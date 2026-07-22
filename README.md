@@ -6,8 +6,17 @@
   
 </p>
 
-
 Landing page para um serviço de cuidados com pets, desenvolvida como parte do programa **DevClub**.
+
+<h2>Tecnologias utilizadas</h2>
+<p align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+
+</p>
 
 ## 📋 Sobre o Projeto
 
