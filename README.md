@@ -1,5 +1,12 @@
 # We Care Pet
 
+<p align="center">
+ 
+  <img src="./img/petsite" alt="Preview do Projeto Easy Shopping Via Mobile" width="100%">
+  
+</p>
+
+
 Landing page para um serviço de cuidados com pets, desenvolvida como parte do programa **DevClub**.
 
 ## 📋 Sobre o Projeto
@@ -63,16 +70,7 @@ projeto-pet-DevClub/
 > - Adicionar media queries para breakpoints
 > - Implementar `flex-wrap` e `grid` para reorganização de conteúdo
 
-## 🔧 Possíveis Melhorias
 
-- [ ] Tornar o layout totalmente responsivo (mobile-first)
-- [ ] Adicionar animações e transições suaves
-- [ ] Implementar formulário de contato funcional
-- [ ] Adicionar seção de depoimentos/avaliações
-- [ ] Implementar modo escuro/claro
-- [ ] Otimizar imagens (WebP, lazy loading)
-- [ ] Adicionar meta tags SEO completas
-- [ ] Implementar validação de formulários
 
 ## 👨‍💻 Autor
 
